@@ -6,7 +6,7 @@ public class AnimalTester {
 	Animal myPet = new Animal();//this instantiation calls the default constructor
 	Animal myLocalPet = new Animal("Here");//this one uses the one parameter constructor
 	Animal Billy = new Animal(20);
-	Animal Alfred = new Animal("My house", "Dog", 25);
+	Animal Alfred = new Animal("My house", "Dog.jpg", 25);
 	Animal Jimmy = new Animal("Beef", 15);
 	
 	System.out.println("myPet has " + myPet.location + " as its location");

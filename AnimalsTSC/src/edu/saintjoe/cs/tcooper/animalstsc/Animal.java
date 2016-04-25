@@ -28,6 +28,7 @@ public class Animal {
 		this.foodType = foodType;
 		this.age = age;
 	}
+	
 	public Animal (String startLocation, String startPicture, int startWeight){
 		this.weight = startWeight;
 		this.location = startLocation;
